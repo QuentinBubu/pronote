@@ -38,7 +38,7 @@ $token = getCurl(
 );*/
 
 
-$token = '{"token":"b9d58410-ddf0-4c5c-92dc-798b9ad11604"}';
+$token = '{"token":"89e1734e-b823-4460-9a32-5a086da5f5d2"}';
 
 $request = '{"query":"' . file_get_contents('graphqlData/schema.graphql') .'",'. substr(getVariables(), 1, -1) .',"operationName":"timetable"}';
 var_dump($request);
